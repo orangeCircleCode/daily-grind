@@ -1,4 +1,4 @@
-baseurl = "https://occ-cafe.netlify.com/"
+baseurl = "https://daily-grind.netlify.com/"
 title = "The Grind"
 theme = "hugo-tracks-theme"
 languageCode = "en-us"
