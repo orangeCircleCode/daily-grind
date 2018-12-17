@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+<head>{{ partial "head.html" . }}</head>
+
+<body class="back">
+  <div class="container-fluid"><!-- HEADER CONTAINER-->
+    <div class="row site-header"><!-- HEADER -->
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-12 top-navigation"><!--NAVIGATION -->
+            {{ partial "topnav.html" . }}
+          </div><!--NAVIGATION -->
+        </div>
+      </div>
+    </div><!-- HEADER -->
+  </div><!-- HEADER CONTAINER-->
+
+	<div class="col-md-10 main-content col-md-offset-1"><!--MAIN CONTENT-->
+    {{ block "main" . }}
+    {{ end }}
+  </div><!-- //////////////////--MAIN CONTENT-->
+
+  <div class="row site-footer"><!--FOOTER -->
+    <div class="col-md-12">
+      {{ partial "footer.html" . }}
+    </div>
+  </div><!---FOOTER -->
+  {{ partial "scripts.html" . }}
+</body>
+
+</html>

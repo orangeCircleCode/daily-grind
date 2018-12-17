@@ -1,0 +1,97 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.main-content {
+		float: none;
+	}
+
+	.site-header a {
+		margin: 0em .8em;
+		font-size: 1em;
+		line-height: initial;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.main-content {
+		float: none;
+	}
+	.site-header a {
+		margin: 0em .8em;
+		font-size: 1em;
+		line-height: initial;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.main-content {
+		float: none;
+	}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+	.entry-header {
+		margin: 40px 0px 25px 0px;
+	}
+	.entry-content {
+		/* font-size: 1em; */
+		margin: 0px;
+	}
+	.site-header a {
+		margin: 0em .6em;
+		font-size: .8em;
+		line-height: initial;
+	}
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.main-content {
+		margin: 50px 15px;
+		float: none;
+	}
+
+	.content-excerpt {
+		height: 25vh;
+		font-size: .8em;
+		padding: 0;
+	}
+
+	.site-header a {
+		margin: 0em .6em;
+		font-size: .7em;
+		line-height: initial;
+		padding: 10px 0px;
+	}
+
+	.content-title h2 {
+		font-size: 1.4em;
+	}
+
+	.content-description {
+		font-size: 1.3em;
+	}
+
+	.entry-header {
+		margin: auto;
+		margin: 30px 0px 20px 0px;
+	}
+
+	.entry-content {
+		/* padding-bottom: 40px; */
+		font-size: 1em;
+		margin: 0px;
+	}
+
+	.site-footer a {
+		font-size: .7em;
+	}
+
+	.back-img {
+		width: 84vw;
+	}
+}
