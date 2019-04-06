@@ -50,10 +50,11 @@
 	font-size: 1.2em;
 	line-height: 3em;
 	/* margin: 0em 3em !important; */
-	opacity: .6;
+	opacity: .8;
 	padding: .4em;
 	border-top: 1px solid white;
 	border-bottom: 1px solid white;
+	font-family: 'Arial', sans-serif
 }
 
 .top-navigation {
@@ -145,8 +146,9 @@ video {
 	/* background: rgba(255, 255, 255, 0.3); */
 	width: 100%;
 	position: absolute;
-	top: 30%;
+	top: 25%;
 	left: 50%;
+	/* bottom: 70%; */
 	transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 	/* text-shadow: 6px 3px rgb(144, 113, 72), 0 0 50px black, 0 0 50px black; */
@@ -156,12 +158,13 @@ video {
 }
 
 .hero-logo {
-	width: 90px;
+	width: 5em;
 	height: auto;
-	align-self: flex-end;
-	margin-bottom: 30px;
+	align-self: flex-start;
+	margin-top: 50%;
 	padding: 10px;
 	opacity: .9;
+	left: 0;
 }
 
 .single-logo {
@@ -220,7 +223,7 @@ video {
 .entry-header {
 	font-size: 2em;
 	color: #ffffff;
-	font-weight: 500;
+	font-weight: 700;
 	margin: 0px;
 	padding: 0px;
 	opacity: .7;

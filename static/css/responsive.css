@@ -16,6 +16,7 @@
 	.main-content {
 		float: none;
 	}
+
 	.site-header a {
 		margin: 0em .8em;
 		font-size: 1em;
@@ -37,11 +38,13 @@
 	.entry-header {
 		margin: 40px 0px 25px 0px;
 	}
+
 	.entry-content {
 		margin: 0px;
 	}
+
 	.site-header a {
-		margin: 0em .6em;
+		/* margin: 0em .6em; */
 		font-size: .8em;
 		line-height: initial;
 	}
@@ -52,6 +55,10 @@
 	.main-content {
 		/* margin: 50px 15px; */
 		float: none;
+	}
+
+	.maintitle {
+		font-size: 17vw;
 	}
 
 	.content-excerpt {
