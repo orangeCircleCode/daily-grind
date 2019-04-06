@@ -18,7 +18,7 @@
 	/* margin: auto; */
 	opacity: .6;
 	width: 60%;
-	margin: 0;
+	margin-top: -10px;
 }
 
 .black {
@@ -49,12 +49,17 @@
 .site-header a {
 	font-size: 1.2em;
 	line-height: 3em;
-	/* margin: 0em 3em !important; */
+	margin-right: 3em !important;
 	opacity: .8;
-	padding: .4em;
+	padding: .5em;
 	border-top: 1px solid white;
 	border-bottom: 1px solid white;
-	font-family: 'Arial', sans-serif
+	font-family: 'Arial', sans-serif;
+	background: rgba(0, 0, 0, 0.1);
+}
+
+body>div.container-fluid>div>div>div>div>a {
+	border: none;
 }
 
 .top-navigation {
@@ -65,7 +70,7 @@
 	width: 100%;
 	/* background: rgba(0, 0, 0, 0.3); */
 	/* background: rgba(255, 255, 255, 0.1); */
-	margin-top: 30px;
+	margin-top: 40px;
 	opacity: 1;
 }
 
@@ -137,8 +142,10 @@ video {
 	font-size: 12vw;
 	/* letter-spacing: .5vw; */
 	/* padding: .1em .3em; */
-	font-family: 'Francois One', sans-serif;
-	opacity: .8;
+	/* font-family: 'Francois One', sans-serif; */
+	font-family: 'Lato', cursive;
+	font-weight: 500;
+	/* opacity: .8; */
 	/* color: #eee8e8; */
 	/* color: rgb(54, 42, 31); */
 	/* color: rgb(49, 39, 30); */
@@ -148,7 +155,7 @@ video {
 	position: absolute;
 	top: 25%;
 	left: 50%;
-	/* bottom: 70%; */
+	margin-top: 25px;
 	transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 	/* text-shadow: 6px 3px rgb(144, 113, 72), 0 0 50px black, 0 0 50px black; */
@@ -221,14 +228,15 @@ video {
 }
 
 .entry-header {
-	font-size: 2em;
+	font-size: 2.5em;
 	color: #ffffff;
-	font-weight: 700;
+	font-weight: lighter;
 	margin: 0px;
 	padding: 0px;
 	opacity: .7;
 	float: none;
 	font-family: 'Fredericka the Great', cursive;
+	/* font-family: 'Cabin Sketch', cursive; */
 	letter-spacing: 3px;
 
 }
@@ -254,7 +262,13 @@ video {
 
 .content-title:after {
 	position: relative;
-	background: goldenrod;
+	background: orangered;
+}
+
+.content-title h2 {
+	text-transform: none;
+	font-weight: 600;
+	letter-spacing: .1em;
 }
 
 .content-image {
@@ -267,15 +281,18 @@ video {
 	align-items: center;
 	justify-content: center;
 	opacity: 1;
+	background-color: #f5eede;
 }
 
 .content-description {
-	font-size: 1.2em;
-	margin: 5%;
+	font-size: 1.7em;
+	font-weight: 500;
+	margin: 5% 0;
 }
 
 .more-link {
 	font-size: 1em;
+	color: #337ab7;
 	/* margin: 30px; */
 }
 
