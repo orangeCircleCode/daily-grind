@@ -50,21 +50,21 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 	.main-content {
-		margin: 50px 15px;
+		/* margin: 50px 15px; */
 		float: none;
 	}
 
 	.content-excerpt {
-		height: 25vh;
+		height: 35vh;
 		font-size: .8em;
 		padding: 0;
 	}
 
 	.site-header a {
-		margin: 0em .6em;
-		font-size: .7em;
+		/* margin: 0em .6em; */
+		font-size: .6em;
 		line-height: initial;
-		padding: 10px 0px;
+		/* padding: 10px 0px; */
 	}
 
 	.content-title h2 {
@@ -77,11 +77,12 @@
 
 	.entry-header {
 		margin: auto;
-		margin: 30px 0px 20px 0px;
+		margin: 10px 0px 5px 0px;
+		font-size: 1em;
 	}
 
 	.entry-content {
-		font-size: 1em;
+		font-size: .7em;
 		margin: 0px;
 	}
 
